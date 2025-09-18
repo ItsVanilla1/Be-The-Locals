@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hingalo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #ff0000, #000000, #ff0000, #000000);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      min-height: 100vh;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .site-header {
+      margin-bottom: 30px;
+    }
+
+    .main-title {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #ff4d4d;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .song-content video {
+      width: 100%;
+      max-width: 720px;      
+      height: auto;           
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+    }
+
+    .lyrics {
+      text-align: left;
+      line-height: 1.8;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .lyrics h2 {
+      margin: 25px 0 10px;
+      color: #ff4d4d;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <header class="site-header">
+        <h1 class="main-title">Hingalo</h1>
+      </header>
+
+      <div class="song-content">
+        
+        <video src="Hingalo - Jan Roberts, shirebound (Official Music Video).mp4" 
+               controls></video>
+
+        <div class="lyrics">
+          <h2>[Intro]</h2>
+          Ang basong ito ay sa iyo<br>
+          Mapapawi ang iyong uhaw sa unang pagkakataon<br>
+          Ang labing namumutla't biyak<br>
+          Ang mga matang walang tigil sa pagsiyak<br>
+          Panglabing-siyam na paumanhin<br>
+          Pangdalawampu'y kasing pait din<br>
+          'Di gaya ng una, 'di na gumagana<br>
+          Tanda sa pagkilala, at sagisag ng pagpapahalaga<br>
+
+          <h2>[Verse 1]</h2>
+          Ilang araw na 'kong nakamulat<br>
+          Namamaga ang mga mata<br>
+          Walang tigil sa pag-iyak<br>
+          Naninikip aking dibdib<br>
+          Nahihirapan akong huminga<br>
+          Sa tuwing naaalala ka ang sinayang na mga alaala<br>
+
+          <h2>[Chorus]</h2>
+          Ibinuhos lahat para sa'yo<br>
+          Dinurog ang dating buo<br>
+          Sobra na ang pagmamahal na ito<br>
+          Walang naitira para sa sarili ko<br>
+          Unti-unting ang aking pagsuko<br>
+          Naghihingalo pati ang pusong<br>
+          Dating masagana, ngayo'y lanta na<br>
+          Dati'y mapula, ngayo'y patay na<br>
+
+          <h2>[Verse 2]</h2>
+          Buo na ang aking pasya (Ang puso masyado ng maraming piraso)<br>
+          Sarili ko naman muna ang mauuna<br>
+          Ipipikit namumugtong mata (Ay hindi mananatiling buo)<br>
+          Susubukang kung tatahan ba<br>
+          Sa tuwing naaalala ka ang sinayang na mga alaala<br>
+
+          <h2>[Chorus]</h2>
+          Ibinuhos lahat para sa'yo<br>
+          Dinurog ang dating buo<br>
+          Sobra na ang pagmamahal na ito<br>
+          Walang naitira para sa sarili ko<br>
+          Unti-unting ang aking pagsuko<br>
+          Naghihingalo pati ang pusong<br>
+          Dating masagana, ngayo'y lanta na<br>
+          Dati'y mapula, ngayo'y patay na<br>
+
+          <h2>[Outro]</h2>
+          Magiging masagana ang dating nalanta<br>
+          Magbabalik buhay sa pagiging pula<br>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

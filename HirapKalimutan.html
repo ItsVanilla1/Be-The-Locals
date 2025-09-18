@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hirap Kalimutan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #ff0000, #000000, #ff0000, #000000);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      min-height: 100vh;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .site-header {
+      margin-bottom: 30px;
+    }
+
+    .main-title {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #ff4d4d;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .song-content video {
+      width: 100%;
+      max-width: 720px;      
+      height: auto;           
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+    }
+
+    .lyrics {
+      text-align: left;
+      line-height: 1.8;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .lyrics h2 {
+      margin: 25px 0 10px;
+      color: #ff4d4d;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <header class="site-header">
+        <h1 class="main-title">Hirap Kalimutan</h1>
+      </header>
+
+      <div class="song-content">
+        
+        <video src="Hirap Kalimutan (Official Lyric Video).mp4" 
+               controls></video>
+
+        <div class="lyrics">
+
+          <h2>[Verse 1]</h2>
+          Dapithapon naglalakad ako mag-isa<br>
+          'Di upang makatipid<br>
+          Ngunit para ako'y makapag-isip-isip<br>
+
+          <h2>[Chorus]</h2>
+          Inihagis ang bato at panooring<br>
+          Lumubog ito hanggang sa pinakamalalim<br>
+          Habang hinayaan ang sariling<br>
+          Malunod sa lungkot<br>
+          Malunod sa lungkot<br>
+
+          <h2>[Instrumental Break]</h2>
+
+          <h2>[Verse 2]</h2>
+          Kung sakaling mapundi<br>
+          Ang pag-ibig mo sa akin<br>
+          Ay hayaan mo 'kong magbigay<br>
+          Ng liwanag para sa 'tin<br>
+
+          <h2>[Pre-Chorus]</h2>
+          Akala ko tayo hanggang dulo<br>
+          Ba't ngayon nag-iisa ako?<br>
+          O 'di ba wala akong natutunan<br>
+          Ang hirap mo pa ring kalimutan<br>
+
+          <h2>[Chorus]</h2>
+          Inihagis ang bato at panooring<br>
+          Lumubog ito hanggang sa pinakamalalim<br>
+          Habang hinayaan ang sariling<br>
+          Malunod sa lungkot<br>
+          Malunod sa lungkot<br>
+
+          <h2>[Instrumental Break]</h2>
+
+          <h2>[Chorus]</h2>
+          Inihagis ang bato at panooring<br>
+          Lumubog ito hanggang sa pinakamalalim<br>
+          Habang hinayaan ang sariling<br>
+          Malunod sa lungkot<br>
+
+          <h2>[Outro]</h2>
+          Malunod sa lungkot<br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
