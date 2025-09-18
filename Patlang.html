@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hingalo - Jan Roberts</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #ff0000, #000000, #ff0000, #000000);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      min-height: 100vh;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .site-header {
+      margin-bottom: 30px;
+    }
+
+    .main-title {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #ff4d4d;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .song-content video {
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+    }
+
+    .lyrics {
+      text-align: left;
+      line-height: 1.8;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .lyrics h2 {
+      margin-bottom: 10px;
+      color: #ff4d4d;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <header class="site-header">
+        <h1 class="main-title">Patlang</h1>
+      </header>
+
+      <div class="song-content">
+        <video src="Patlang - Jan Roberts (Official Lyric Video).mp4" controls></video>
+
+        <div class="lyrics">
+          <h2>Lyrics</h2>
+          <p>
+            [Verse 1]<br>
+            O tila ba namamanhid na<br>
+            Wala na akong nadarama<br>
+            Nakatulala, nakatingala<br>
+            Umiiyak, 'di lamang pinapahalata<br><br>
+
+            [Verse 2]<br>
+            Patuloy na nililibang ang aking sarili<br>
+            Upang malimot ang nakaraang mga nangyari<br>
+            'Di na nanahimik<br>
+            Sariling pag-iisip<br>
+            May oras na walang imik<br>
+            Ikaw lang ang nasa isip<br><br>
+
+            [Chorus]<br>
+            May mga tao na aalis at mananatili<br>
+            'Di tiyak ang tadhana kaya't maaaring magkamali<br><br>
+
+            [Verse 3]<br>
+            Lungkot at sakit<br>
+            Patuloy na nakakubli<br>
+            Sa ilalim ng mga ngiti<br>
+            Humihikbi<br><br>
+
+            [Bridge]<br>
+            Pangako sa hangin<br>
+            Handa nang bumitaw<br>
+            Ligaya'y hahanapin<br>
+            Kahit<br><br>
+
+            [Instrumental]<br><br>
+
+            [Bridge]<br>
+            Ligaya'y hahanapin<br>
+            Ligaya'y hahanapin<br>
+            Ligaya'y hahanapin<br>
+            Ligaya'y hahanapin<br><br>
+
+            [Chorus]<br>
+            May mga tao na aalis (Ligaya'y hahanapin)<br>
+            At mananatili (Ligaya'y hahanapin)<br>
+            Hindi tiyak ang tadhana (Ligaya'y hahanapin)<br>
+            Kaya't maaaring magkamali (Ligaya'y hahanapin)<br><br>
+
+            [Outro]<br>
+            Kahit<br>
+            May mga tao na aalis at mananatili<br>
+            'Di tiyak ang tadhana kaya't maaaring magkamali
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

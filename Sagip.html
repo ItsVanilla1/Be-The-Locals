@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patlang</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #ff0000, #000000, #ff0000, #000000);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      min-height: 100vh;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .site-header {
+      margin-bottom: 30px;
+    }
+
+    .main-title {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #ff4d4d;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .song-content video {
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
+    }
+
+    .lyrics {
+      text-align: left;
+      line-height: 1.9;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    .lyrics h3 {
+      color: #ff4d4d;
+      margin: 20px 0 10px;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      text-shadow: 0 0 8px #ff0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <header class="site-header">
+        <h1 class="main-title">Sagip</h1>
+      </header>
+
+      <div class="song-content">
+        <video src="Sagip - Jan Roberts (Lyric Visualizer).mp4" controls></video>
+
+        <div class="lyrics">
+          <h2>Lyrics</h2>
+
+          <h3>[Verse]</h3>
+          Handa akong manatili hanggang sa 'yong pagkalma<br>
+          Magsisilbing lakas mo tuwing nanghihina ka<br>
+          Patatahanin kita kapag may problema ka<br>
+          Dadamayan ka sa lahat, aking sinta<br><br>
+
+          <h3>[Pre-Chorus]</h3>
+          Kahit ga'no man kalalim<br>
+          Ay akin 'yang lalanguyin<br>
+          Kahit ga'no man kalalim<br>
+          Ay akin 'yang lalanguyin<br><br>
+
+          <h3>[Chorus]</h3>
+          Sasagipin kita<br>
+          Sasagipin kita<br>
+          Sasagipin<br>
+          Sasagipin kita<br><br>
+
+          <h3>[Verse]</h3>
+          Handa akong manatili hanggang sa 'yong pagkalma<br>
+          Magsisilbing lakas mo tuwing nanghihina ka (Hina ka)<br>
+          Patatahanin kita kapag may problema ka<br>
+          Dadamayan ka sa lahat, aking sinta<br><br>
+
+          <h3>[Pre-Chorus]</h3>
+          Kahit ga'no man kalalim<br>
+          Ay akin 'yang lalanguyin<br>
+          Kahit ga'no man kalalim<br>
+          Ay akin 'yang lalanguyin<br><br>
+
+          <h3>[Chorus]</h3>
+          Sasagipin (Sasagipin) kita<br>
+          (Sasagipin, sasagipin) Sasagipin kita<br>
+          (Sasagipin) Sasagipin<br>
+          Sasagipin kita<br><br>
+
+          <h3>[Outro]</h3>
+          Handa akong manatili hanggang sa 'yong pagkalma<br>
+          Magsisilbing lakas mo tuwing nanghihina ka<br>
+          Patatahanin kita kapag may problema ka<br>
+          Gagabayan ka sa lahat<br>
+          Mahal kita
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
